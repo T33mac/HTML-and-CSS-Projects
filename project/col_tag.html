@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Columns</title>
+      <h1>Columns</h1>
+  </head>
+  <style>
+      table, th, td {
+          border: solid blue;
+      }
+  </style>
+  <body>
+      <table>
+        <colgroup>
+            <col style="background-color: rgba(100,100,200,1)">
+            <col span="2" style="background-color: brown">
+        </colgroup>
+        <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Why</th>
+        </tr>
+        <tr>
+            <th>123</th>
+            <th>Grippo</th>
+            <th>Because</th>
+        </tr>
+        <tr>
+            <th>456</th>
+            <th>Charlie M.</th>
+            <th>It's Complicated</th>
+        </tr>
+        <tr>
+            <th>789</th>
+            <th>HairBear</th>
+            <th>Don't Know</th>
+        </tr>
+    </table>
+  </body>
+</html>
